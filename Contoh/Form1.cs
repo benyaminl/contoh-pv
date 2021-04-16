@@ -41,7 +41,7 @@ namespace Contoh
             for (int i= 0; i< 10; i++)
             {
                 Button b = new Button();
-                buttons.Add(b);
+                //buttons.Add(b);
                 b.Top = 5 * r.Next(10, 200);
                 b.Left = 5 * r.Next(10, 200);
                 b.Parent = this;
